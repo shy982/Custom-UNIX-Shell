@@ -12,11 +12,15 @@ This is a custom Unix shell
 1. The main script lies in the file shyvin.c
 2. The extra commands that we have implemented lie in our_custom_commands.sh
 3. Go to the terminal and compile the file:
+    
     -- gcc shyvin.c -lreadline (or make shyvin.c)
+    
     -- ./a.out
+    
     -- You should see the welcome message and 3 seconds later the command prompt appears.
 
-**** To ensure that the custom designed commands are executable ****
+*** To ensure that the custom designed commands are executable ***
+
 1. cd ~
 2. cp /Downloads/our_custom_commands.sh ~/.our_custom_commands.sh (Assuming the bash script is in Downloads folder currently)
 3. chmod +x .our_custom_commands.sh
